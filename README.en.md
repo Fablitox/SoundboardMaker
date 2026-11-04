@@ -9,7 +9,7 @@
   <p><strong>Windows · Audio Editor · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Soundboard Maker 1.0.0 — Available now!</strong></p>
   <p><a href="https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe">Download for Windows</a> · <a href="https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin">Stream Deck plugin</a> · <a href="https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0">Release notes</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a></p>
-  <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visit the official website — sbmaker.fablitox.fr</a></strong></p>
+  <p>🌐 <strong><a href="https://soundboardmaker.com/en/">Visit the official website — soundboardmaker.com</a></strong></p>
   <p><a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share feedback</a></p>
 </div>
 
