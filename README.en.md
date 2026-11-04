@@ -1,112 +1,218 @@
 <div align="center">
   <h3>🌐 <a href="README.md">🇫🇷 Lire en français</a> &nbsp; | &nbsp; 🇬🇧 English</h3>
 </div>
+
 <div align="center">
+
+<a href="https://soundboardmaker.com/en/">
   <img src="docs/assets/logo.png" width="168" alt="Soundboard Maker logo">
-  <h1>Soundboard Maker</h1>
-  <p><strong>Your sounds. Your control.</strong></p>
-  <p>A Windows app to organize, edit, record and trigger audio, with Stream Deck integration.</p>
-  <p><strong>Windows · Audio Editor · Capture & Replay · Stream Deck</strong></p>
-  <p><strong>🚀 Soundboard Maker 1.0.0 — Available now!</strong></p>
-  <p><a href="https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe">Download for Windows</a> · <a href="https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin">Stream Deck plugin</a> · <a href="https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0">Release notes</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a></p>
-  <p>🌐 <strong><a href="https://soundboardmaker.com/en/">Visit the official website — soundboardmaker.com</a></strong></p>
-  <p><a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share feedback</a></p>
+</a>
+
+# Soundboard Maker
+
+**Your sounds. Right when you need them.**
+
+Organize, edit, record, and trigger your sounds from a single Windows application.
+
+**A complete Soundboard, with or without Stream Deck.**
+
+**Windows 64-bit · Audio Editor · Capture & Replay · Stream Deck**
+
+<p>
+  <a href="https://soundboardmaker.com/en/#download">⬇️ Download for Windows</a>
+  &nbsp;·&nbsp;
+  <a href="https://soundboardmaker.com/en/#download">Stream Deck Plugin</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a>
+</p>
+
+<p>🌐 <strong><a href="https://soundboardmaker.com/en/">Visit the official website — soundboardmaker.com</a></strong></p>
+
+<p>
+  <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN">Wiki</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN">FAQ</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Fablitox/SoundBoardMaker/releases/latest">Latest GitHub Release</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share Feedback</a>
+</p>
+
 </div>
 
 ---
 
-## See the application
+## Discover Soundboard Maker
+
+Soundboard Maker brings all your audio tools together in a single Windows application.
+
+Organize your library, prepare clips with the built-in editor, record audio from your computer, and trigger your sounds in just a few clicks.
+
+Everything comes together in a modern interface designed to be simple and easy to use.
 
 <div align="center">
+
 <table>
-  <tr>
-    <td align="center">
-      <a href="docs/screenshots/Bibliotheque_EN.png"><img src="docs/screenshots/Bibliotheque_EN.png" width="315" alt="Soundboard Maker sound library"></a>
-      <br><sub><b>Sound library</b></sub>
-    </td>
-    <td align="center">
-      <a href="docs/screenshots/Editeur_EN.png"><img src="docs/screenshots/Editeur_EN.png" width="315" alt="Soundboard Maker audio editor"></a>
-      <br><sub><b>Audio editor</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="docs/screenshots/Capture_Replay_EN.png"><img src="docs/screenshots/Capture_Replay_EN.png" width="315" alt="Soundboard Maker recording and replay settings"></a>
-      <br><sub><b>Capture & Replay</b></sub>
-    </td>
-    <td align="center">
-      <a href="docs/screenshots/StreamDeck_EN.png"><img src="docs/screenshots/StreamDeck_EN.png" width="315" alt="Soundboard Maker Stream Deck integration"></a>
-      <br><sub><b>Stream Deck</b></sub>
-    </td>
-  </tr>
+<tr>
+<td align="center">
+<a href="docs/screenshots/Bibliotheque_EN.png">
+<img src="docs/screenshots/Bibliotheque_EN.png" width="315" alt="Sound library">
+</a>
+<br><sub><b>Sound Library</b></sub>
+</td>
+<td align="center">
+<a href="docs/screenshots/Editeur_EN.png">
+<img src="docs/screenshots/Editeur_EN.png" width="315" alt="Audio editor">
+</a>
+<br><sub><b>Audio Editor</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="docs/screenshots/Capture_Replay_EN.png">
+<img src="docs/screenshots/Capture_Replay_EN.png" width="315" alt="Capture and Replay Buffer">
+</a>
+<br><sub><b>Capture & Replay</b></sub>
+</td>
+<td align="center">
+<a href="docs/screenshots/StreamDeck_EN.png">
+<img src="docs/screenshots/StreamDeck_EN.png" width="315" alt="Stream Deck integration">
+</a>
+<br><sub><b>Stream Deck</b></sub>
+</td>
+</tr>
 </table>
+
+*Real Soundboard Maker screenshots. Click an image to enlarge it.*
+
 </div>
 
-*Real application screenshots. Click an image to view it at full size.*
+---
 
-### Built-in Soundboard — your sounds, one click away
+## Everything you need for your sounds
 
-Create pages, organize your keys and play sounds **directly inside Soundboard Maker**, without a physical Stream Deck. Each key can control its own sound.
+Soundboard Maker combines an organized sound library, integrated audio editor, recording tools, and playback controls in one cohesive interface.
 
-> **Microphone routing (Discord, games):** Elgato Wave Link is required to route sounds into a virtual microphone input. It is not needed for ordinary headphone or speaker playback. [Setup guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-EN).
+| Sound Library | Audio Editor | Capture & Replay | Stream Deck |
+| --- | --- | --- | --- |
+| Folders, search, favorites, and recent sounds. | Selection, trimming, previews, adjustments, and export. | Audio recording and saving the last seconds. | Playback, recording, memory, Replay, and stop controls. |
+
+### Main Features
+
+- **Local sound library:** import sounds, organize folders, and quickly find audio files.
+- **Audio editor:** trim clips, preview your changes, and save the result.
+- **Flexible playback:** trigger multiple sounds independently and manage audio outputs.
+- **Audio capture:** record system audio directly from the application.
+- **Replay Buffer:** save the last seconds of audio using a configurable duration.
+- **Stream Deck:** control sounds and application features from your device's keys.
+- **Bilingual interface:** available in English and French.
+
+---
+
+## Built-in Soundboard — Your Sounds, One Click Away
+
+**You don't need a Stream Deck to use a Soundboard.**
+
+Soundboard Maker has its own Soundboard built directly into the application.
+
+Create multiple pages, organize your keys, and assign sounds of your choice to trigger them instantly.
+
+Each key can control its own sound, without any extra hardware.
 
 <div align="center">
-  <a href="docs/screenshots/Soundboard_EN.png"><img src="docs/screenshots/Soundboard_EN.png" alt="Built-in Soundboard with audio keys and pages inside Soundboard Maker" width="690"></a>
-  <br><sub><b>The Soundboard built into the desktop application</b></sub>
+
+<a href="docs/screenshots/Soundboard_EN.png">
+<img src="docs/screenshots/Soundboard_EN.png" alt="Built-in Soundboard in Soundboard Maker" width="690">
+</a>
+
+<br><sub><b>The Soundboard built into the application</b></sub>
+
 </div>
 
-## One place for all your sounds
+---
 
-Soundboard Maker brings a local sound library, integrated audio editing, playback controls, system-audio recording and Replay Buffer into a single Windows application.
+## Play Sounds Through Your Microphone
 
-| Library | Audio editor | Capture & Replay | Stream Deck |
-| --- | --- | --- | --- |
-| Folders, search, favorites, pages and recent sounds. | Trim, preview, edit and save a separate copy. | Record system audio and save the last seconds. | Trigger sounds, remember tracks, record and stop playback. |
+Want your friends to hear the sounds you trigger in **Discord, a game, or voice chat**, as if they came from your microphone?
 
-### Features
+Soundboard Maker supports audio routing through **Elgato Wave Link**.
 
-- **Local sound library:** import, organize, search and favorite audio files while preserving track identifiers.
-- **Built-in Soundboard:** audio pages and sound keys inside the app, with no physical Stream Deck required.
-- **Integrated editor:** accurate selection, trimming, undo/redo, previews and export to supported formats.
-- **Independent playback:** trigger more than one sound and use the available output-routing options.
-- **Audio capture:** record system audio from the desktop app or Stream Deck actions.
-- **Replay Buffer:** save the last seconds of a captured stream, with a configurable duration.
-- **Stream Deck plugin:** configurable playback, recording, latest sound, memory, replay and stop-all actions.
-- **French and English interface.**
+**Important to know:**
 
-> Playback and save/export formats may differ depending on the feature.
+- Wave Link is required to route sounds to the supported virtual microphone.
+- It is not needed to listen through your headphones or speakers.
+- Soundboard Maker does not create its own virtual microphone device.
 
-## Play sounds through your microphone (Discord, games…)
+To configure audio routing, see our documentation:
 
-**Wave Link is required for the virtual-microphone routing supported by Soundboard Maker.** To let others hear your sounds in Discord or in-game voice chat as part of your microphone input, route the audio through **Elgato Wave Link** and choose its virtual microphone output (for example, **Wave Link MicrophoneFX**) as your voice-chat input.
+**[Wave Link Setup Guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-EN)**
 
-**Wave Link is not required just to listen to sounds** through your speakers or headphones. Soundboard Maker does not create its own virtual microphone device.
+---
 
-See the [setup guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-EN).
+## Download Soundboard Maker
 
-## Downloads
+Download the latest official Soundboard Maker release for 64-bit Windows.
 
-**Soundboard Maker 1.0.0 is now available.**
+### Download from the Official Website
 
-[Download for Windows](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe) · [Stream Deck plugin](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin) · [1.0.0 release notes](https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0) · [Installation](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN)
+Access the application and Stream Deck plugin downloads directly from the official website.
 
-The [official 1.0.0 release](https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0) provides:
+**[⬇️ Download on soundboardmaker.com](https://soundboardmaker.com/en/#download)**
+
+### Download from GitHub
+
+You can also view the latest official release on GitHub, read its release notes, and download the files manually.
+
+**[📦 View the Latest GitHub Release](https://github.com/Fablitox/SoundBoardMaker/releases/latest)**
+
+### Available Files
 
 | File | Purpose |
 | --- | --- |
-| [**SoundboardMaker-Setup-1.0.0.exe**](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe) | Install or update Soundboard Maker. |
-| [**com.soundboardmaker.streamdeck.streamDeckPlugin**](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin) | Download from the same GitHub release and install manually **until it is available on Elgato Marketplace**. |
+| **SoundboardMaker-Setup-[version].exe** | Windows installer for installing or updating Soundboard Maker. |
+| **com.soundboardmaker.streamdeck.streamDeckPlugin** | Optional plugin to control the application through Elgato Stream Deck. |
 
-**No portable ZIP distribution is planned.** Always verify the file version and source before running an installer.
+**Installing the Stream Deck plugin:** download the `.streamDeckPlugin` file, open it with Elgato Stream Deck software, and confirm installation.
 
-## Installation and support
+The plugin is distributed manually until it becomes available on **Elgato Marketplace**.
 
-See the [installation guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN). Soundboard Maker targets 64-bit Windows 11. Stream Deck features require the Elgato Stream Deck software and the matching plugin.
+No portable version is distributed.
 
-**Share your feedback:** visit [Soundboard Maker Discussions](https://github.com/Fablitox/SoundBoardMaker/discussions) for opinions, ideas and questions.
+[Installation Guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN) · [All Releases](https://github.com/Fablitox/SoundBoardMaker/releases)
 
-**Found a reproducible bug?** Open a [GitHub Issue](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) and follow the [support guidelines](https://github.com/Fablitox/SoundBoardMaker/wiki/Support-EN). Never upload private sound files, personal logs or API tokens.
+---
 
-## About this repository
+## Documentation & Support
 
-This **public** repository hosts Soundboard Maker's presentation, documentation and official downloads. **The application source code and development history remain private.** This repository is not an open-source release.
+Need help installing or using Soundboard Maker? Find guides and answers to frequently asked questions in the official Wiki.
+
+| Resource | Link |
+| --- | --- |
+| 📖 Documentation | [Official Wiki](https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN) |
+| 💻 Installation | [Installation Guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN) |
+| ❓ Frequently Asked Questions | [FAQ](https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN) |
+| 🔊 Audio Routing | [Wave Link Guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-EN) |
+| 🛠️ Report a Bug | [GitHub Issues](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) |
+| 💬 Suggestions & Discussions | [GitHub Discussions](https://github.com/Fablitox/SoundBoardMaker/discussions) |
+
+Your suggestions, bug reports, and feedback help us improve Soundboard Maker.
+
+Please do not post personal audio files, private logs, or confidential information in reports.
+
+---
+
+## About the Project
+
+Soundboard Maker is developed and distributed by **Fablitox**.
+
+This public repository hosts the application's presentation, documentation, and official releases.
+
+The source code and development history remain private. Soundboard Maker is not distributed as open-source software.
+
+<div align="center">
+
+---
+
+**[🌐 soundboardmaker.com](https://soundboardmaker.com/en/)**
+
+</div>
