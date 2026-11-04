@@ -130,9 +130,6 @@ async function updateReleaseLinks(){
       status.textContent=english?'VERSION '+version+' AVAILABLE':'VERSION '+version+' DISPONIBLE';
       if(dot)status.prepend(dot);
     }
-    const notes=document.querySelector('.download-foot a[href*="/releases/tag/"]');
-    if(notes&&typeof newest.html_url==='string'&&
-      /^https:\/\/github\.com\/Fablitox\/SoundboardMaker\/releases\/tag\//i.test(newest.html_url))notes.href=newest.html_url;
   }catch(_){/* Keep the confirmed 1.0.0 download links. */}
   finally{clearTimeout(cancel)}
 }
