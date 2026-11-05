@@ -94,7 +94,8 @@ h2{font-size:clamp(32px,3.65vw,51px);line-height:1.13;letter-spacing:-.052em;fon
 .feature-zoom{position:absolute;right:10px;bottom:10px;display:grid;place-items:center;width:30px;height:30px;border:1px solid #6d87974d;border-radius:6px;background:#101a22e8;color:#d6eaf4;font-size:20px;pointer-events:none}
 .feature-copy{padding:15px 7px 7px}
 .feature-num{display:block;margin-bottom:6px;font-size:10px;color:#8da5b3;font-weight:700;letter-spacing:.12em}
-.feature-card h3{font-size:20px;line-height:1.25;font-weight:700;letter-spacing:-.027em;margin:0 0 8px}
+.feature-card h3{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:20px;line-height:1.25;font-weight:700;letter-spacing:-.027em;margin:0 0 8px}
+.feature-symbol{flex:none;font-size:24px;color:#c6dbe4;line-height:1;letter-spacing:0;opacity:.9}
 .feature-card p{min-height:5.1em;color:#a5b6c1;font-size:13px;line-height:1.7;margin:0}
 @media(max-width:1100px){.feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:900px){.features-section{padding-bottom:38px}.features-section + #soundboard{padding-top:38px}}
