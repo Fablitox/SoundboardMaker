@@ -13,4 +13,40 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/" />
   </url>
+  <url>
+    <loc>https://soundboardmaker.com/mentions-legales/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soundboardmaker.com/mentions-legales/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/mentions-legales/" />
+  </url>
+  <url>
+    <loc>https://soundboardmaker.com/confidentialite/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soundboardmaker.com/confidentialite/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/confidentialite/" />
+  </url>
+  <url>
+    <loc>https://soundboardmaker.com/licence/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soundboardmaker.com/licence/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/license/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/licence/" />
+  </url>
+  <url>
+    <loc>https://soundboardmaker.com/en/legal/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soundboardmaker.com/mentions-legales/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/legal/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/mentions-legales/" />
+  </url>
+  <url>
+    <loc>https://soundboardmaker.com/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soundboardmaker.com/confidentialite/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/confidentialite/" />
+  </url>
+  <url>
+    <loc>https://soundboardmaker.com/en/license/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://soundboardmaker.com/licence/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://soundboardmaker.com/en/license/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soundboardmaker.com/licence/" />
+  </url>
 </urlset>
