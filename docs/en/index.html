@@ -23,9 +23,9 @@
   <meta name="twitter:image" content="https://soundboardmaker.com/assets/social-preview.png?v=20261030-1">
   <link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png?v=20261103">
   <link rel="icon" type="image/svg+xml" sizes="any" href="../assets/favicon.svg?v=20261103">
-  <link rel="stylesheet" href="../style.css?v=20261102-soundboard-ratio">
+  <link rel="stylesheet" href="../style.css?v=20261105-features-four">
   <link rel="stylesheet" href="../language-prompt.css?v=20261104">
-  <script src="../app.js?v=20261104-latest" defer></script>
+  <script src="../app.js?v=20261105-features" defer></script>
   <script src="../language-prompt.js?v=20261104" defer></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="fd426516-11d3-4d21-9e5f-0ff150baa547"></script>
   <script type="application/ld+json">
@@ -50,9 +50,7 @@
         <span class="brand-name">soundboard<span>maker</span></span>
       </a>
       <nav class="site-nav" id="site-nav" aria-label="Navigation">
-        <a href="#features">Features</a>
-        <a href="#preview">Preview</a>
-        <a href="#download">Download</a>
+        <a href="#features">Features</a>        <a href="#download">Download</a>
         <a href="#faq">FAQ</a>
         <a href="#community">Support</a>
         <a href="https://github.com/Fablitox/SoundBoardMaker" target="_blank" rel="noopener noreferrer" class="nav-github">GitHub <span aria-hidden="true">↗</span></a>
@@ -74,7 +72,7 @@
         <p class="hero-lead">Organize, edit and trigger your sounds from one desktop app. Stream Deck optional.</p>
         <div class="hero-ctas">
           <a class="button button-primary" href="#download"><span class="button-icon">↓</span> Download for Windows</a>
-          <a class="button button-outline" href="#preview">Explore the app <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="#features">Explore the app <span aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-meta"><span class="micro-icon">▧</span>64-bit Windows application <span class="sep"></span> With or without Stream Deck</div>
       </div>
@@ -92,44 +90,37 @@
       <div><span class="strip-check">✓</span>Sounds in one click</div>
     </div>
 
-    <section class="section layout" id="features" aria-labelledby="features-title">
+    <section class="section layout features-section" id="features" aria-labelledby="features-title">
       <div class="section-top"><p class="section-label">JUST WHAT YOU NEED</p><h2 id="features-title">Everything essential. Nothing extra.</h2><p class="section-intro">One consistent workspace to prepare, find and play the right sound at the right time.</p></div>
       <div class="feature-grid">
-        
-        <article class="feature-card"><div class="feature-top"><span class="feature-num">01</span><span class="feature-symbol" aria-hidden="true">▥</span></div><h3>Organize</h3><p>Find sounds quickly with libraries, folders, favorites and search.</p></article>
-        
-        <article class="feature-card"><div class="feature-top"><span class="feature-num">02</span><span class="feature-symbol" aria-hidden="true">✂</span></div><h3>Edit</h3><p>Trim clips, adjust your audio and keep only the part that matters.</p></article>
-        
-        <article class="feature-card"><div class="feature-top"><span class="feature-num">03</span><span class="feature-symbol" aria-hidden="true">◉</span></div><h3>Capture</h3><p>Record system audio or save the last seconds with Replay Buffer.</p></article>
-        
-        <article class="feature-card"><div class="feature-top"><span class="feature-num">04</span><span class="feature-symbol" aria-hidden="true">▶</span></div><h3>Trigger</h3><p>Play sounds from the built-in Soundboard or your Stream Deck keys.</p></article>
-        
-      </div>
-    </section>
-
-    <section class="section preview-section" id="preview" aria-labelledby="preview-title">
-      <div class="layout">
-        <div class="section-top"><p class="section-label">THE REAL APP</p><h2 id="preview-title">Take a closer look.</h2><p class="section-intro">Four official screenshots.</p></div>
-        <div class="preview-shell">
-          <div class="preview-heading"><div role="tablist" aria-label="Preview" class="preview-tabs">
-            
-            <button class="preview-tab is-selected" type="button" role="tab" aria-selected="true" id="tab-library" data-image="../screenshots/Bibliotheque_EN.png" data-label="Library" data-detail="All your audio sources, organized and within reach.">Library</button>
-            
-            <button class="preview-tab " type="button" role="tab" aria-selected="false" id="tab-editor" data-image="../screenshots/Editeur_EN.png" data-label="Editor" data-detail="Precise trimming and audio editing in one place.">Editor</button>
-            
-            <button class="preview-tab " type="button" role="tab" aria-selected="false" id="tab-capture" data-image="../screenshots/Capture_Replay_EN.png" data-label="Capture &amp; Replay" data-detail="Local recording and Replay Buffer together.">Capture &amp; Replay</button>
-            
-            <button class="preview-tab " type="button" role="tab" aria-selected="false" id="tab-deck" data-image="../screenshots/StreamDeck_EN.png" data-label="Stream Deck" data-detail="Plugin controls for playback and recording.">Stream Deck</button>
-            
-          </div><span class="preview-index" id="preview-index">01 / 04</span></div>
-          <div class="preview-stage" role="tabpanel" aria-labelledby="tab-library" id="preview-panel">
-            <button class="preview-launch" id="open-preview" type="button" aria-label="Enlarge screenshot">
-              <img id="preview-image" src="../screenshots/Bibliotheque_EN.png" alt="Library — Soundboard Maker" loading="lazy">
-              <span class="expand-icon" aria-hidden="true">⤢</span>
-            </button>
-          </div>
-          <div class="preview-footer"><div><strong id="preview-caption-title">Library</strong><span id="preview-caption-desc">All your audio sources, organized and within reach.</span></div><button class="preview-zoom" id="open-preview-text" type="button">Enlarge screenshot <span>⤢</span></button></div>
-        </div>
+        <article class="feature-card">
+          <button class="feature-preview" type="button" data-preview-title="Organize" aria-label="Enlarge screenshot — Organize" aria-haspopup="dialog" aria-controls="preview-dialog">
+            <img src="../screenshots/Bibliotheque_EN.png" width="3046" height="1977" alt="Official screenshot of the Soundboard Maker sound library." loading="lazy" decoding="async">
+            <span class="feature-zoom" aria-hidden="true">⤢</span>
+          </button>
+          <div class="feature-copy"><span class="feature-num">01</span><h3>Organize</h3><p>Find your sounds quickly with libraries, folders, favorites and search.</p></div>
+        </article>
+        <article class="feature-card">
+          <button class="feature-preview" type="button" data-preview-title="Edit" aria-label="Enlarge screenshot — Edit" aria-haspopup="dialog" aria-controls="preview-dialog">
+            <img src="../screenshots/Editeur_EN.png" width="3046" height="1977" alt="Official screenshot of the Soundboard Maker audio editor." loading="lazy" decoding="async">
+            <span class="feature-zoom" aria-hidden="true">⤢</span>
+          </button>
+          <div class="feature-copy"><span class="feature-num">02</span><h3>Edit</h3><p>Trim a clip, adjust it and keep only the part that matters.</p></div>
+        </article>
+        <article class="feature-card">
+          <button class="feature-preview" type="button" data-preview-title="Capture" aria-label="Enlarge screenshot — Capture" aria-haspopup="dialog" aria-controls="preview-dialog">
+            <img src="../screenshots/Capture_Replay_EN.png" width="3046" height="1977" alt="Official screenshot of Soundboard Maker recording and Replay Buffer features." loading="lazy" decoding="async">
+            <span class="feature-zoom" aria-hidden="true">⤢</span>
+          </button>
+          <div class="feature-copy"><span class="feature-num">03</span><h3>Capture</h3><p>Record system audio or save the last few seconds with Replay Buffer.</p></div>
+        </article>
+        <article class="feature-card">
+          <button class="feature-preview" type="button" data-preview-title="Stream Deck" aria-label="Enlarge screenshot — Stream Deck" aria-haspopup="dialog" aria-controls="preview-dialog">
+            <img src="../screenshots/StreamDeck_EN.png" width="2183" height="1685" alt="Official screenshot of the Soundboard Maker Stream Deck controls." loading="lazy" decoding="async">
+            <span class="feature-zoom" aria-hidden="true">⤢</span>
+          </button>
+          <div class="feature-copy"><span class="feature-num">04</span><h3>Stream Deck</h3><p>Control your sounds, recordings and Replay from your Stream Deck keys.</p></div>
+        </article>
       </div>
     </section>
 
@@ -163,6 +154,6 @@
 
   <footer class="footer"><div class="layout footer-main"><a href="#top" class="brand brand-footer"><span class="brand-symbol"><img src="../assets/logo-mark.png" width="32" height="23" alt=""></span><span class="brand-name">soundboard<span>maker</span></span></a><div class="footer-links"><a href="https://github.com/Fablitox/SoundBoardMaker" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN" target="_blank" rel="noopener noreferrer">Documentation</a><a href="https://github.com/Fablitox/SoundBoardMaker/discussions" target="_blank" rel="noopener noreferrer">Support</a><a href="#top">Back to top ↑</a></div></div><div class="layout footer-low"><span>Your sounds. Your control.</span><span>Windows · Stream Deck · Audio Editor</span></div></footer>
 
-  <dialog id="preview-dialog" class="preview-dialog" aria-label="Enlarge screenshot"><div class="dialog-top"><strong id="dialog-title">Soundboard Maker</strong><button class="dialog-close" id="close-dialog" type="button" aria-label="Close screenshot">✕</button></div><img id="dialog-image" src="../screenshots/Bibliotheque_EN.png" alt=""><div class="dialog-hint">Press Escape to close</div></dialog>
+  <dialog id="preview-dialog" class="preview-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-hint"><div class="dialog-top"><strong id="dialog-title">Soundboard Maker</strong><button class="dialog-close" id="close-dialog" type="button" aria-label="Close screenshot">✕</button></div><img id="dialog-image" src="../screenshots/Bibliotheque_EN.png" alt=""><div class="dialog-hint" id="dialog-hint">Press Escape to close</div></dialog>
 </body>
 </html>

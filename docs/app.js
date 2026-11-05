@@ -14,68 +14,38 @@ $$('.site-nav a').forEach(a=>a.addEventListener('click',closeMenu));
 document.addEventListener('click',e=>{if(menu?.classList.contains('is-open')&&!e.target.closest('.site-header'))closeMenu()});
 window.addEventListener('resize',()=>{if(window.innerWidth>900)closeMenu()});
 
-// Screenshots: real app screenshots in both languages; tabs update the preview.
-const tabs=$$('.preview-tab');
-const image=$('#preview-image');
-const title=$('#preview-caption-title');
-const desc=$('#preview-caption-desc');
-const index=$('#preview-index');
-const panel=$('#preview-panel');
+// One shared lightbox for feature cards and the built-in Soundboard screenshot.
 const dialog=$('#preview-dialog');
 const dialogImage=$('#dialog-image');
 const dialogTitle=$('#dialog-title');
-let currentTab=tabs[0];
-function selectTab(tab){
-  if(!tab)return;
-  currentTab=tab;
-  tabs.forEach(t=>{
-    const active=t===tab;
-    t.classList.toggle('is-selected',active);
-    t.setAttribute('aria-selected',String(active));
-    t.tabIndex=active?0:-1;
-  });
-  image.src=tab.dataset.image;
-  image.alt=tab.dataset.label+' — Soundboard Maker';
-  title.textContent=tab.dataset.label;
-  desc.textContent=tab.dataset.detail;
-  index.textContent=String(tabs.indexOf(tab)+1).padStart(2,'0')+' / 04';
-  panel.setAttribute('aria-labelledby',tab.id);
-}
-tabs.forEach((tab,position)=>{
-  tab.tabIndex=position===0?0:-1;
-  tab.addEventListener('click',()=>selectTab(tab));
-  tab.addEventListener('keydown',event=>{
-    if(!['ArrowRight','ArrowLeft','Home','End'].includes(event.key))return;
-    event.preventDefault();
-    let next=position;
-    if(event.key==='ArrowRight')next=(position+1)%tabs.length;
-    if(event.key==='ArrowLeft')next=(position-1+tabs.length)%tabs.length;
-    if(event.key==='Home')next=0;
-    if(event.key==='End')next=tabs.length-1;
-    selectTab(tabs[next]);tabs[next].focus();
-  });
-});
-function openDialog(){
-  if(!dialog?.showModal)return;
-  dialogImage.src=currentTab.dataset.image;
+let dialogOpener=null;
+function openScreenshot(opener,image,title){
+  if(!dialog?.showModal||!image)return;
+  dialogOpener=opener;
+  dialogImage.src=image.src;
   dialogImage.alt=image.alt;
-  dialogTitle.textContent=currentTab.dataset.label;
+  dialogTitle.textContent=title;
   dialog.showModal();
 }
-$('#open-preview')?.addEventListener('click',openDialog);
-$('#open-preview-text')?.addEventListener('click',openDialog);
-$('#close-dialog')?.addEventListener('click',()=>dialog.close());
-dialog?.addEventListener('click',event=>{if(event.target===dialog)dialog.close()});
-
-// Open the real Soundboard screenshot in the existing lightbox.
-$('#open-soundboard')?.addEventListener('click',()=>{
-  const shot=$('#soundboard-image');
-  if(!dialog?.showModal||!shot)return;
-  dialogImage.src=shot.src;
-  dialogImage.alt=shot.alt;
-  dialogTitle.textContent=shot.dataset.title||'Soundboard Maker';
-  dialog.showModal();
+$$('.feature-preview').forEach(button=>{
+  button.addEventListener('click',()=>openScreenshot(button,$('img',button),button.dataset.previewTitle));
 });
+$('#open-soundboard')?.addEventListener('click',event=>{
+  const image=$('#soundboard-image');
+  openScreenshot(event.currentTarget,image,image?.dataset.title||'Soundboard Maker');
+});
+$('#close-dialog')?.addEventListener('click',()=>dialog.close());
+dialog?.addEventListener('click',event=>{
+  const bounds=dialog.getBoundingClientRect();
+  if(event.target===dialog&&(event.clientX<bounds.left||event.clientX>bounds.right||event.clientY<bounds.top||event.clientY>bounds.bottom))dialog.close();
+});
+// Native dialog handles Escape and focus trapping; restore the opening control.
+dialog?.addEventListener('close',()=>{
+  const opener=dialogOpener;
+  dialogOpener=null;
+  if(opener?.isConnected)opener.focus({preventScroll:true});
+});
+
 // Keep accessible navigation highlight in sync without changing the URL structure.
 if('IntersectionObserver' in window){
   const sectionAnchors=$$('.site-nav a[href^="#"]');
